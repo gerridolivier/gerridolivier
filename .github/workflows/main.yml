@@ -1,0 +1,36 @@
+name: WakaTime stats in readme
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Runs every 2 hours
+    - cron: "0 */1 * * *"
+
+jobs:
+  update-readme:
+    name: Update this repo's README
+    runs-on: ubuntu-latest
+    steps:
+      - uses: athul/waka-readme@master
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          # Show time for each language
+          SHOW_TIME: true
+          # Time range of data to display
+          TIME_RANGE: last_30_days
+          # Progress display bar type
+          INPUT_BLOCKS: ●ඞ
+          # Max Languages to display
+          LANG_COUNT: 7
+          # Show total coding time
+          SHOW_TOTAL: true
+          # idk
+          SHOW_TITLE: true
+          # Show time coding in "other"
+          SHOW_MASKED_TIME: true
+          # Commit as the Actions bot so these updates don't count on the contribution graph
+          COMMITTER_NAME: github-actions[bot]
+          COMMITTER_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+          AUTHOR_NAME: github-actions[bot]
+          AUTHOR_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
