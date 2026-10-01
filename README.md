@@ -70,7 +70,7 @@ No activity tracked
 <!--END_SECTION:waka-->
 
 <p>
-    <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=piggyawesome&" alt="piggyawesome" />
+    <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=gerridolivier&" alt="gerridolivier" />
 </p>
 
 <p align="left"> 
