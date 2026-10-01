@@ -48,12 +48,12 @@ websockets<br>
   
 
 <!-- Github Stats -->
-![PiggyAwesome's GitHub stats](https://github-readme-stats.vercel.app/api?username=PiggyAwesome&show_icons=true&theme=default)
+![gerridolivier's GitHub stats](https://github-readme-stats.vercel.app/api?username=gerridolivier&show_icons=true&theme=default)
 
-<!-- ![Metrics](https://metrics.lecoq.io/PiggyAwesome?template=terminal&base.header=0&base.activity=0&base.repositories=0&base.metadata=0&languages=1&languages.limit=8&languages.colors=github&languages.threshold=0%25&config.timezone=America%2FToronto) -->
+<!-- ![Metrics](https://metrics.lecoq.io/gerridolivier?template=terminal&base.header=0&base.activity=0&base.repositories=0&base.metadata=0&languages=1&languages.limit=8&languages.colors=github&languages.threshold=0%25&config.timezone=America%2FToronto) -->
 
 <!-- Most used languages -->
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=PiggyAwesome&layout=compact)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=gerridolivier&layout=compact)
 
 <p align="right"><img src="https://media.tenor.com/images/52c80bffe2f2675700e4397d25071ae3/tenor.gif" width="25" height="13"/></p>
 
